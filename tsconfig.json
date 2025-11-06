@@ -15,7 +15,7 @@
     "importHelpers": true,
     "target": "es2017",
     "module": "es2020",
-    "paths": {
+    "paths": {// alias para las Rutas, la idea es que no sean tan largas
       "@core/*":["src/app/core/*"],
       "@module/*":["src/app/module/*"],
       "@shared/*":["src/app/shared/*"]
