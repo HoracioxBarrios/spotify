@@ -8,12 +8,12 @@ const routes: Routes = [
   {
   path : 'auth',
   loadChildren: ()=> import('./modules//auth/auth.module').then(m => m.AuthModule)
-},
-{
-  path : '', //TODO: http://localhost:4200/
-  component: HomePageComponent,
-  loadChildren: ()=> import('./modules/home/home.module').then(m => m.HomeModule)
-}
+  },
+  {
+    path : '', //TODO: http://localhost:4200/
+    component: HomePageComponent,
+    loadChildren: ()=> import('./modules/home/home.module').then(m => m.HomeModule)
+  }
 ];
 
 @NgModule({

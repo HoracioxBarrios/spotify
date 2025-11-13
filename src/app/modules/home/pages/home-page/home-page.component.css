@@ -1,0 +1,6 @@
+.home-wrapper{
+    margin: 0 0 0 17.5rem;/* margen a la izq igual a: 17.5 rem = 280 px (si 1rem = 16px) */
+    background: rgb(23, 23, 26);
+    background: linear-gradient(90deg, rgba(23, 23, 26, 1) 44%, rgba(24, 24, 24, 1));
+    min-height: 100vh;
+}
